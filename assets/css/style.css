@@ -1,0 +1,61 @@
+:root {
+    --purple: #ce9dd9;
+}
+
+* {
+    background-color: rgb(53, 53, 53);
+    font-family: sans-serif
+}
+
+/* p {
+    text-align: center
+} */
+
+header {
+    text-align: center
+}
+
+section {
+    position: relative
+}
+
+header h1 {
+    color: var(--purple)
+}
+
+h2 {
+    text-align: center;
+    color: var(--purple);
+    border: solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 33px;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap
+}
+
+header p {
+    color: var(--white);
+    margin-left: 150px;
+    margin-right: 150px
+}
+
+pre {
+    background-color: violet;
+    color: white;
+    border-radius: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+}
+
+.row {
+    border: 2px dashed white;
+    margin: 10px
+}
+
